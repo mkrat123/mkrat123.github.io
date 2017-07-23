@@ -1,0 +1,68 @@
+body {
+  background-color: #f6f8f7;
+  margin: 5px auto;
+  padding: 0;
+}
+
+.resume-wrapper {
+  border: 1px solid #dce2e4;
+  margin: 50px auto;
+  background-color: #ecf0f1;
+  padding: 0px 20px 50px 20px;
+  box-shadow: 0 0 7px #6e6e6e;
+  border-radius: 5px;
+ 
+}
+
+
+.head-title {
+    background-color: #0a8bb0;
+    box-shadow: 0 3px 0 #00789f;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+
+.affix {
+  top: 0;
+  width: 100%; 
+  left:0;
+}
+
+
+.navbar-inverse {
+  border-color: #f8fafa;
+    box-shadow: 0 3px 0 #d2dfdf;
+    margin-top: 1px;
+    background-color: #f8fafa;
+   border-radius: 0 0 5px 5px;  
+
+   
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #2d2626;
+    font-weight: bold;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+     padding: 10px 8px;
+    font-weight: bold;
+     background-color: #d8d8d8 !important;
+    
+}
+
+.navbar-inverse .navbar-nav > li > a:active  {
+background-color: #0a8bb0 !important;
+color: #f8f8f8 !important;
+text-shadow: 0 2px 0 #00789f;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus  {
+background-color: #0a8bb0 !important;
+color: #f8f8f8 !important;
+text-shadow: 0 2px 0 #00789f;
+}
