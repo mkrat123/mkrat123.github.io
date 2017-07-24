@@ -19,7 +19,7 @@ body {
     background-color: #0a8bb0;
     box-shadow: 0 3px 0 #00789f;
     border-radius: 0 0 5px 5px;
-    margin-bottom: 20px;
+    
     text-align: center;
     padding: 3px;
 }
@@ -37,7 +37,8 @@ body {
     box-shadow: 0 3px 0 #d2dfdf;
     margin-top: 1px;
     background-color: #f8fafa;
-   border-radius: 0 0 5px 5px;  
+   border-radius: 0 0 5px 5px;
+   z-index: +1000;  
 
    
 }
@@ -66,3 +67,93 @@ background-color: #0a8bb0 !important;
 color: #f8f8f8 !important;
 text-shadow: 0 2px 0 #00789f;
 }
+
+
+
+/*   *******************************************************************Section About    */
+
+.section-title {
+    display: inline-block;
+    z-index: -1;
+
+}
+ .section-title > .title {
+      width: 70px;
+      text-align: center;
+
+    }
+
+.section-title .title > h4 {
+  font-family: 'Open Sans Condensed', "Microsoft YaHei";
+        font-size: 15px;
+        font-weight: bold !important;
+        color: #211d1e;
+        text-shadow: 0 2px 0 #c1c5c6;
+      }
+
+
+.section-icon {
+    padding: 15px 10px 10px;
+    border-radius: 100px;
+    background-color: #0a8bb0;
+    border: 5px solid #fbf6fa;
+    box-shadow: 0 3px 0 #c0c4c5;
+    text-align: center;
+    height: 70px;
+    margin: 30px 0 0;
+    width: 70px;
+    transition: all 200ms ease-out;
+
+}
+
+.section-icon > i {
+      color: #feffff;
+      text-shadow: 0 -1px 0 #c0c4c5;
+      font-size: 30px;
+    }
+
+
+  .box-wrapper {
+    margin-top: 30px;
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 0 #d8d8d8;
+    background-image: linear-gradient(to top, #f2f2f2 0%, #ffffff 19%);
+   
+}
+
+.box-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+
+ .avatar {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    transition: all 100ms ease-out;
+    box-shadow: 0 3px 0 #dfdfdf;
+    border: 5px solid #0a8bb0;
+    overflow: hidden;
+    border-radius: 120px;
+
+    
+}
+
+  .avatar>  img {
+      width: 120px;
+      margin-top: -5px;
+      margin-left: -5px;
+      overflow: 120px;
+      border-radius:120px;
+    }
