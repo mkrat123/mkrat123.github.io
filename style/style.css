@@ -3,6 +3,12 @@ body {
   margin: 5px auto;
   padding: 0;
 }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
 
 .resume-wrapper {
   border: 1px solid #dce2e4;
@@ -298,18 +304,6 @@ text-shadow: 0 2px 0 #00789f;
     padding-bottom: 0;
 }
 
- .box-wrapper {
-    margin-top: 30px;
-    position: relative;
-    background-color: #fff;
-    padding: 15px;
-        padding-bottom: 15px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 0 0 #d8d8d8;
-    background-image: -webkit-linear-gradient(bottom,#f2f2f2 0,#fff 19%);
-    background-image: linear-gradient(to top,#f2f2f2 0,#fff 19%);
-}
-
 .emp-box .timeline-wrapper {
     margin-left: 20px;
 }
@@ -380,4 +374,71 @@ text-shadow: 0 2px 0 #00789f;
     border-style: solid;
     border-width: 10px 10px 10px 0;
     border-color: transparent #0a8bb0 transparent transparent;
+}
+
+.cat-title {
+    margin-bottom: 10px;
+    background-image: -webkit-linear-gradient(left,#eee,#ecf0f1);
+    background-image: linear-gradient(to right,#eee,#ecf0f1);
+    border-radius: 5px;
+}
+
+.cat-title i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.cat-title span {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.sub-cat-title {
+    margin-bottom: 8px;   
+}
+
+.sub-cat-title i {
+    color: #5bc0de;
+    font-size: 18px;
+}
+
+.sub-cat-title span {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style: none;
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+    font-size: 15px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul li > span {
+    margin-top: -3px;
+}
+ul li > .rating {
+    float: right;
+    margin-right: 10px;
+}
+
+.skill-body > span.label {
+    margin-bottom: 5px;
+    line-height: 1.5em;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 13px;
 }
